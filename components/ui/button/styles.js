@@ -8,7 +8,7 @@ const ButtonBase = styled.button`
     background-color: ${props=>props.bgcolor || "transparent"};
     border:none;
     border-radius:4px;
-    color: ${(props)=>props.color || "grey"};
+    color: ${(props)=>props.color || "black"};
 `
 
 const ProviderButton = styled(ButtonBase)`
@@ -17,6 +17,13 @@ const ProviderButton = styled(ButtonBase)`
         margin-right:0.4rem;
     }
     display:flex;
+    margin: auto;
 `
 
-export {ButtonBase, ProviderButton}
+const PlanningButton = styled(ButtonBase)`
+    
+    background-color: tomato;
+    margin: auto;
+`
+
+export {ButtonBase, ProviderButton, PlanningButton}
