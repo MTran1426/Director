@@ -11,9 +11,9 @@ export default function Home() {
   return (
      <div>
        <NavBar/>
-       <Brand title="ToDoList Application" tagline="Plan your future plans here"/>
+       <Brand title="ToDo Calender Planning App" tagline="Plan your future plans here"/>
        <StartPlans>Start Planning</StartPlans>
-       {/* { <Button bgcolor="tomato" color="white">Start Planning</Button> } */}
+        {/* <Button bgcolor="tomato" color="white"><a href="/login">Start Planning</a></Button> */}
      </div>
     
   )

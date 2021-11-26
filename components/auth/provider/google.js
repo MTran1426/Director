@@ -15,7 +15,9 @@ function GoogleProvider ({children, ...props}){
             height={20}
             quality={50}
             />
+            <span>
             {children}
+            </span>
         </ProviderButton>
     )
 }

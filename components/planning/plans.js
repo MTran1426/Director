@@ -4,7 +4,9 @@ function StartPlans ({children, ...props}){
     
     return (
         <PlanningButton>
+            <a href="/login">
             {children}
+            </a>
         </PlanningButton>
     )
 }

@@ -1,5 +1,7 @@
 # Firebase Integration
 
+## SVGO -----> optimizer for svg strip needless tags
+
 ## You will need to create a new repo for this class  
 ## call it something like firebase-vercel
 

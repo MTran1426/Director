@@ -15,7 +15,7 @@ export default function Home() {
   return (
      <div>
        <NavBar/>
-       <Brand title="Login Page" tagline="login to firebase"/>
+       <Brand title="ToDo Calender Planning App" tagline="login to firebase"/>
        <GoogleProvider>Sign in with Google</GoogleProvider>
        <GithubProvider>Sign in with Github</GithubProvider>
        <FacebookProvider>Sign in with Facebook</FacebookProvider>
