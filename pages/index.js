@@ -1,10 +1,12 @@
 import { AppBar } from "../components/appbar"
 import { GoogleProvider } from "../components/authentication/providers"
+import { GitHubProvider } from "../components/authentication/providers"
 import { Title } from "../ui/title"
 import { Spacer } from "../ui/spacers"
 import {UserLogin} from "../components/authentication/user-login"
 import { Legal, HighLight } from "../ui/legal"
 import {PageLayout, PageHeader, PageFooter, PageBody} from '../layouts/loginpage'
+import { GithubAuthProvider } from "@firebase/auth"
 function index (){
     
     return(
@@ -16,6 +18,7 @@ function index (){
                     </PageHeader>
                <PageBody>
                    <GoogleProvider>With Google</GoogleProvider>
+                   <GitHubProvider>With Github</GitHubProvider>
                    <Spacer className="spacing" >OR</Spacer>
                    <UserLogin/>
                 </PageBody>             
